@@ -1,0 +1,5 @@
+.vscode
+.hypothesis
+__pycache__
+reference_alg.py
+.DS_Store
