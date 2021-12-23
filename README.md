@@ -1,2 +1,2 @@
 # fast-closest-points
-Faster closest pair of points algorithm.
+Generalized **R**<sup>n</sup> faster closest pair of points algorithm.
