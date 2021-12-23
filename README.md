@@ -1,5 +1,5 @@
-# fast-closest-points
-Faster closest pair of points algorithm for Rn.
+# generalized-closest-points
+Closest pair of points algorithm for all Rn.
 
 - Faster than the optimized iterative algorithm by 98% for a list of 500 points.
 - Works for all dimensions (including R1).
