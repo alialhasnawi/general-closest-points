@@ -1,0 +1,13 @@
+
+Own Implementation:
+1689 euclidean distance calls + 4261 other distance calls = 5950 total calls.
+(other distance calls only use abs and subtraction, Minkowski p-> -infinity)
+Took 13.932ms.
+
+Normal Implementation (with extra pair checks removed)
+499500 euclidean distance calls.
+Took 611.955ms.
+
+Generic Implementation (uses built-in sorting, but only works for R2)
+2429 euclidean distance calls.
+Took 7.49ms.
