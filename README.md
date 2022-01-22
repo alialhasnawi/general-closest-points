@@ -7,14 +7,17 @@ Closest pair of points algorithm for all Rn.
 
 
 ### Usage
-```
+```python
 from general_closest_points.alg import closest_points
 
-# Points is a list of n-tuples.
-# All tuples in points must be of the same dimension.
-closest_points(points)
+points = [
+  (1, 2),
+  (-1, 3),
+  (2, 2)
+]
 
-# Returns the pair of points as a tuple.
+closest_points(points)
+# > ((1, 2), (2, 2))
 ```
 
 
